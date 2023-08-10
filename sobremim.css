@@ -1,0 +1,76 @@
+body {
+    color: black;
+    background-image: url('img/ImagemTeste3.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   /* background-attachment: fixed;*/
+}
+
+.container {
+    position: absolute;
+    left: 100px;
+    top: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    
+}   
+
+a {
+   color: black; 
+   text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    top: 390px;
+    left: 80px;
+    border-radius: 50%;
+    border: 5px solid #24a866;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color: #24a866;
+    position: absolute;
+    top: 180px;
+    left: 110px;
+    font-size: 100px;
+}
+
+h2 {
+    color: black;
+    position: absolute;
+    top: 390px;
+    left: 270px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+section {
+    position: absolute;
+    top: 750px;
+    left: 0px;
+}
+
+h3 {
+    color: black;
+}
+
+p {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
